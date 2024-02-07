@@ -1,0 +1,40 @@
+# openapi: 3.0.0
+# info:
+#   title: Your API
+#   version: 1.0.0
+# paths:
+#   /api/ecode_catg_lnk/:
+#     get:
+#       summary: Get Ecode Catg Lnk data
+#       responses:
+#         '200':
+#           description: Successful response
+#           content:
+#             application/json:
+#               schema:
+#                 $ref: '#/components/schemas/api.EppsEcodeCatgLnk'
+# components:
+#   schemas:
+#     api.EppsEcodeCatgLnk:
+#       type: object
+#       properties:
+#         compony_code:
+#           type: integer
+#         division_code:
+#           type: integer
+#         employee_code:
+#           type: string
+#         item_category:
+#           type: string
+#         created_by:
+#           type: string
+#         updated_by:
+#           type: string
+#         terminal_id:
+#           type: string
+#         isactive:
+#           type: string
+#         creator_role_cd:
+#           type: integer
+#         updator_role_cd:
+#           type: integer
