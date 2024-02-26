@@ -6,3 +6,4 @@ Error2 = Swgger- parameters not show in swagger - ![Screenshot from 2024-02-12 1
 pdf in jasper+ python 
 
 Error 3 = in django when i use isauthancticated class api not visible in swagger
+Error 4 = i want to add filter from another model
